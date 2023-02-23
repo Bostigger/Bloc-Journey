@@ -65,7 +65,7 @@ class _ProjectIntroState extends State<ProjectIntro> {
           builder: (context, snapshot) {
             final button = TextButton(
                 onPressed: () => countriesCubit.getCountry(),
-                child: const Text('Get your Lucky Country'));
+                child: const Text('Get your Country'));
             switch (snapshot.connectionState) {
               case ConnectionState.none:
                 return Center(child: button);
