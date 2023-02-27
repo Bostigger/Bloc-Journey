@@ -17,6 +17,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   bloc: ^8.1.1
   flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  hydrated_bloc: ^9.1.0
+  numberpicker: ^2.1.1
 
 dev_dependencies:
   flutter_test:
@@ -30,3 +33,9 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - workouts.json
+    - stopwatch.png
+    - beep.oga
+    - ding.oga
+    - applause.oga
